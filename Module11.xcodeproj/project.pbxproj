@@ -13,6 +13,10 @@
 		3D3AA6382741569700791AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AA6362741569700791AEE /* Main.storyboard */; };
 		3D3AA63A2741569800791AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AA6392741569800791AEE /* Assets.xcassets */; };
 		3D3AA63D2741569800791AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AA63B2741569800791AEE /* LaunchScreen.storyboard */; };
+		3DA04ED1274CE4B10005D5B9 /* ShadowedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA04ED0274CE4B10005D5B9 /* ShadowedButton.swift */; };
+		3DC064FD2741696700EE878D /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC064FC2741696700EE878D /* ClockView.swift */; };
+		3DC2E9952747F831005313EA /* ClockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2E9942747F831005313EA /* ClockManager.swift */; };
+		3DDC23392746A2D000E91CD7 /* SimpleSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC23382746A2D000E91CD7 /* SimpleSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3D3AA6392741569800791AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3AA63C2741569800791AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D3AA63E2741569800791AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA04ED0274CE4B10005D5B9 /* ShadowedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedButton.swift; sourceTree = "<group>"; };
+		3DC064FC2741696700EE878D /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		3DC2E9942747F831005313EA /* ClockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockManager.swift; sourceTree = "<group>"; };
+		3DDC23382746A2D000E91CD7 /* SimpleSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		3D3AA62F2741569700791AEE /* Module11 */ = {
 			isa = PBXGroup;
 			children = (
+				3DA04ED0274CE4B10005D5B9 /* ShadowedButton.swift */,
 				3D3AA6302741569700791AEE /* AppDelegate.swift */,
 				3D3AA6322741569700791AEE /* SceneDelegate.swift */,
 				3D3AA6342741569700791AEE /* ViewController.swift */,
+				3DC2E9942747F831005313EA /* ClockManager.swift */,
 				3D3AA6362741569700791AEE /* Main.storyboard */,
+				3DC064FC2741696700EE878D /* ClockView.swift */,
+				3DDC23382746A2D000E91CD7 /* SimpleSegmentedControl.swift */,
 				3D3AA6392741569800791AEE /* Assets.xcassets */,
 				3D3AA63B2741569800791AEE /* LaunchScreen.storyboard */,
 				3D3AA63E2741569800791AEE /* Info.plist */,
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D3AA6352741569700791AEE /* ViewController.swift in Sources */,
+				3DC064FD2741696700EE878D /* ClockView.swift in Sources */,
 				3D3AA6312741569700791AEE /* AppDelegate.swift in Sources */,
+				3DC2E9952747F831005313EA /* ClockManager.swift in Sources */,
 				3D3AA6332741569700791AEE /* SceneDelegate.swift in Sources */,
+				3DDC23392746A2D000E91CD7 /* SimpleSegmentedControl.swift in Sources */,
+				3DA04ED1274CE4B10005D5B9 /* ShadowedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
